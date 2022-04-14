@@ -2,18 +2,14 @@
   display: grid;
   justify-content: center;
   gap: 48px;
+  grid-template-columns: repeat(2, 200px);
 
   &__card {
     display: grid;
     place-items: center;
-    width: 200px;
     height: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-
-  @media (min-width: 488px) {
-    grid-template-columns: repeat(2, 200px);
   }
 
   @media (min-width: 768px) {
